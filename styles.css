@@ -690,24 +690,117 @@
     width: 100%;
     overflow-x: hidden;
   }
+
   .menu{
-    width: 90%;
+    width: 97%;
+    height: 50px;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     padding-right: 0;
+    display: flex;
+
   }
   .menu_bar a{
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
+    font-size: 12px;
+    border-spacing: 1px solid #484848;
   }
+
   .hero_content{
-    display: block;
+    display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 100px auto;
+    margin: 70px auto;
+    flex-direction: column-reverse;
+  }
+
+  .hero_content_image img {
+    width: 10rem;
+  }
+
+  .hero_content_text {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero_content h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .btn_green {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  .worked_with {
+    display: flex;
+    margin-top: -130px;
+  }
+
+  .logo_container{
+    width: 80%;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Case_Studies {
+    margin-top: 10%;
+  }
+
+  .Fintech {
+  display: block;
+  }
+
+  .btn_orange {
+    border-radius: 20px;
+  }
+
+  .Fintech_image img {
+    margin-top: 30px;
+  }
+
+  .Edtech_Image img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    }
+
+  .EdTech {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .EdTech p {
+  display: flex;
+  text-align: left;
+  width: 75%;
+  }
+
+  .btn_blue {
+  border-radius: 20px;
+  }
+
+  .Pharma {
+  display: block;
+  }
+
+  .btn_green_c {
+    border-radius: 20px;
+  }
+
+  .Pharma_image img {
+    margin-top: 30px;
   }
   .testimonials{
     height: 1250px;
