@@ -709,6 +709,36 @@
     padding-right: 15px;
     margin: 100px auto;
   }
+  .testimonials{
+    height: 1250px;
+  }
+  .titulo_testimonials p{
+    width: 90%;
+  }
+  .cuadro_1{
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 15px;
+  }
+  .testimonial {
+    width: 400px;
+  }
+
+  .get_in_touch #texto {
+    width: 90%; ;
+  }
+
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body,html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .cuadro_1{
+    padding: 40px 15px;
+  }
+  .testimonial {
+    width: 350px;
+  }
 }
