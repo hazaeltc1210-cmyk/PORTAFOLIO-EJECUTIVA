@@ -145,6 +145,20 @@
   align-items: center;
 }
 
+.first_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.second_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+
 .logo_container img {
   width: 160px;
   height: 60px;
@@ -153,6 +167,7 @@
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
+
 
 .logo_container img:hover {
   transform: scale(1.05);
@@ -493,7 +508,6 @@
   font-weight: 800;
   font-size: 34px;
   margin-bottom: 1rem;
-  margin-top: 80px;
 }
 
 .Recent_h {
@@ -691,6 +705,10 @@
     overflow-x: hidden;
   }
 
+  .hero{
+    height: 715px;
+  }
+
   .menu{
     width: 97%;
     height: 50px;
@@ -706,7 +724,7 @@
     padding-right: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
-    font-size: 12px;
+    font-size: 11px;
     border-spacing: 1px solid #484848;
   }
 
@@ -739,6 +757,8 @@
     height: 30px;
     border-radius: 20px;
     justify-content: center;
+    font-size: 12px;
+    padding-top: 5px;
   }
 
   .worked_with {
@@ -746,11 +766,30 @@
     margin-top: -130px;
   }
 
-  .logo_container{
-    width: 80%;
-    flex-direction: column;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .logo_container {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .first_image {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .second_image {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    padding-left: 15px;
+    width: 280px;
+  }
+
+  .logo_container img {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
   }
 
   .Case_Studies {
@@ -803,5 +842,11 @@
     margin-top: 30px;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body,html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
 }
